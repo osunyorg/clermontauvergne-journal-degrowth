@@ -9,8 +9,13 @@
               (dict
                 "items"       site.Data.menus.primary
                 "level"       1
-                "class"       "nav flex-column align-items-md-end"
-                "show_legals" true
+                "class"       "nav nav--primary"
+              )}}
+        {{ partial "commons/menu.html"
+              (dict
+                "items"       site.Data.menus.legal
+                "level"       1
+                "class"       "nav nav--legal"
               )}}
       </div>
     </div>
