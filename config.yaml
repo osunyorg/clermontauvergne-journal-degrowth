@@ -4,6 +4,6 @@ theme: hugo-osuny
 paginate: 18
 permalinks:
   pages:          /pages/:slug/
-  authors:        /authors/:name
+  authors:        /authors/:slug
   articles:       /articles/:slug
   volumes:        /volumes/:slug
