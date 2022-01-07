@@ -1,0 +1,18 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <a href="/"><img src="/assets/images/logo.svg" alt="{{site.Title}}" width="140" height="45"></a>
+      </div>
+      <div class="col-md-6">
+        {{ partial "commons/menu.html"
+              (dict
+                "items"       site.Data.menus.primary
+                "level"       1
+                "class"       "nav grid"
+                "show_legals" true
+              )}}
+      </div>
+    </div>
+  </div>
+</footer>
