@@ -7,4 +7,8 @@
   target: "/privacy-policy/"
   kind: page
   children: []
+- title: Cookie policy
+  target: "/cookie-policy/"
+  kind: page
+  children: []
 
