@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ partial "header/hero.html"
+        (dict
+          "title" .Content
+          "image" .Params.image
+          "context" .
+        )}}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4">
+      {{ range (where site.RegularPages "Type" "volumes" | first 6) }}
+        <div class="col">
+          {{ partial "volumes/volume.html" . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
