@@ -2,9 +2,9 @@
 - title: Home
   target: "/"
   kind: url
-  children:
-  - title: About
-    target: "/about/"
-    kind: page
-    children: []
+  children: []
+- title: About
+  target: "/about/"
+  kind: page
+  children: []
 
