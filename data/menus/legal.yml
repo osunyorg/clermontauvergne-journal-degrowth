@@ -1,2 +1,6 @@
---- []
+---
+- title: Terms of use
+  target: "/terms-of-use/"
+  kind: page
+  children: []
 
