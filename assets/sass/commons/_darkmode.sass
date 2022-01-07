@@ -1,0 +1,40 @@
+@media (prefers-color-scheme: dark)
+    ::selection
+        background: rgba($black, .3)
+        color: $black
+
+    ::-moz-selection
+        background: rgba($black, .3)
+        color: $black
+
+    @include media-breakpoint-down(lg)
+        #navbarNavDropdown
+            background: black
+
+    body
+        background-color: $black
+
+    body,
+    a,
+    .nav-link,
+    .navbar-nav .nav-link
+        color: $white
+
+    a,
+    .nav-link,
+    .navbar-nav .nav-link
+        &:hover,
+        &:focus
+            color: $gray-300
+
+    .navbar
+        &-toggler:focus
+            box-shadow: none
+        &-toggler-icon
+            filter: invert(0)
+        &-brand
+            img
+                filter: invert(0)
+
+    .footer
+        background-color: $dark
