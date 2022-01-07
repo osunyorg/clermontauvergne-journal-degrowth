@@ -18,6 +18,7 @@
     a,
     .hero,
     .nav-link,
+    .hero .breadcrumb a,
     .navbar-nav .nav-link
         color: $white
 
@@ -29,13 +30,19 @@
             color: $gray-300
 
     .navbar
-        &-toggler:focus
-            box-shadow: none
-        &-toggler-icon
-            filter: invert(0)
+        &-toggler
+            &:focus
+                box-shadow: none
+            &-text
+                color: $white
+            &-icon
+                filter: invert(1)
         &-brand
             img
-                filter: invert(0)
+                filter: none
+
+    .link--more::before
+        filter: invert(1)
 
     .footer
         background-color: $dark
