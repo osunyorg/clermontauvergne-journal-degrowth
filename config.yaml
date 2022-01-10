@@ -1,9 +1,17 @@
-title: Clermont Auvergne journal degrowth
 languageCode: en
 theme: hugo-osuny
+languages:
+  en:
+    title: Degrowth journal
 paginate: 18
 permalinks:
   pages:          /pages/:slug/
   authors:        /authors/:slug
   articles:       /articles/:slug
-  volumes:        /volumes/:slug
+taxonomies:
+  administrator:  administrators
+  author:         authors
+  category:       categories
+  researcher:     researchers
+  teacher:        teachers
+  volume:         volumes
