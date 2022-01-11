@@ -7,9 +7,9 @@
         )}}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-4">
-      {{ range (where site.RegularPages "Type" "volumes" | first 6) }}
+      {{ range .Site.Taxonomies.volumes }}
         <div class="col">
-          {{ partial "volumes/volume.html" . }}
+          {{ partial "volumes/volume.html" .Page }}
         </div>
       {{ end }}
     </div>
