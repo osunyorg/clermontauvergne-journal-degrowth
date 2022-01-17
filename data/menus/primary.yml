@@ -3,6 +3,10 @@
   target: "/"
   kind: url
   children: []
+- title: Volumes
+  target: "/volumes/"
+  kind: research_volumes
+  children: []
 - title: About
   target: "/about/"
   kind: page
