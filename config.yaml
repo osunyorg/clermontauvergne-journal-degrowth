@@ -1,5 +1,5 @@
 languageCode: en
-theme: hugo-osuny
+theme: osuny-hugo-theme
 languages:
   en:
     title: Degrowth journal
