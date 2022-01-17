@@ -10,5 +10,9 @@ permalinks:
   persons:        /authors/:slug/
   researchers:    /authors/:slug/publications
 taxonomies:
+  administrator:  administrators
+  author:         authors
+  category:       categories
   researcher:     researchers
+  teacher:        teachers
   volume:         volumes
