@@ -6,14 +6,9 @@ languages:
 paginate: 18
 permalinks:
   pages:          /pages/:slug/
-  authors:        /authors/:slug/
   articles:       /articles/:slug/
-  persons:        /researchers/:slug/
-  researchers:    /researchers/:slug/publications
+  persons:        /authors/:slug/
+  researchers:    /authors/:slug/publications
 taxonomies:
-  administrator:  administrators
-  author:         authors
-  category:       categories
   researcher:     researchers
-  teacher:        teachers
   volume:         volumes
