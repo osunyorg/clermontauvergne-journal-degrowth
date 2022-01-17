@@ -6,8 +6,9 @@ languages:
 paginate: 18
 permalinks:
   pages:          /pages/:slug/
-  authors:        /authors/:slug
-  articles:       /articles/:slug
+  authors:        /authors/:slug/
+  articles:       /articles/:slug/
+  researchers:    /researchers/:slug/
 taxonomies:
   administrator:  administrators
   author:         authors
