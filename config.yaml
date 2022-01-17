@@ -8,7 +8,8 @@ permalinks:
   pages:          /pages/:slug/
   authors:        /authors/:slug/
   articles:       /articles/:slug/
-  researchers:    /researchers/:slug/
+  persons:        /researchers/:slug/
+  researchers:    /researchers/:slug/publications
 taxonomies:
   administrator:  administrators
   author:         authors
