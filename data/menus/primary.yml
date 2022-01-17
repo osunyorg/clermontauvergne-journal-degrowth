@@ -8,7 +8,7 @@
   kind: research_volumes
   children: []
 - title: Researchers
-  target: "/researchers/"
+  target: "/authors/"
   kind: researchers
   children: []
 - title: About
