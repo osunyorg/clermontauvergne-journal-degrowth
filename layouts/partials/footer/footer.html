@@ -2,7 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 mb-4">
-        <a href="/"><img src="/assets/images/logo.svg" alt="{{site.Title}}" width="140" height="45"></a>
+        {{ with site.Data.journal }}
+          <div itemscope itemtype="https://schema.org/Periodical">
+            <meta itemprop="name" content="{{ .name }}">
+            <a href="/"><img src="{{ site.Data.website.logo }}" alt="{{ .name }}" width="140" height="45" itemprop="image"></a>
+            <p class="mt-2 small">ISSN: <span itemprop="issn">{{ .issn }}</span></p>
+          </div>
+        {{ end }}
       </div>
       <div class="col-md-6">
         {{ partial "commons/menu.html"
