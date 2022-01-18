@@ -7,10 +7,6 @@
         background: rgba(white, .5)
         color: black
 
-    @include media-breakpoint-down(lg)
-        #navbarNavDropdown
-            background: black
-
     body
         background-color: $black
 
@@ -44,6 +40,10 @@
     .link--more::before
         filter: invert(1)
 
+    .avatar,
+    .card-media
+        background-color: $dark
+
     .footer
         background-color: $dark
         img
@@ -53,3 +53,7 @@
                 > a,
                 > span
                     color: $white
+
+    @include media-breakpoint-down(lg)
+        #navbarNavDropdown
+            background: black
