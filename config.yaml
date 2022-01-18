@@ -1,8 +1,9 @@
+baseURL: /
 languageCode: en
-theme: osuny-hugo-theme
 languages:
   en:
     title: Degrowth journal
+theme: osuny-hugo-theme
 paginate: 18
 permalinks:
   pages:          /pages/:slug/
