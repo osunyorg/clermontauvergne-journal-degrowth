@@ -1,0 +1,64 @@
+{{ define "main" }}
+  {{ $slug := .Slug }}
+  {{ $programsForTeacher := slice }}
+  {{ if isset site.Taxonomies "teachers" }}
+    {{ $programsForTeacher = index site.Taxonomies.teachers $slug}}
+  {{ end }}
+  {{ $programsForAdministrator := slice }}
+  {{ if isset site.Taxonomies "administrators" }}
+    {{ $programsForAdministrator = index site.Taxonomies.administrators $slug}}
+  {{ end }}
+  {{ $programsForTeacherAndAdministrator := union $programsForTeacher $programsForAdministrator }}
+  {{ $articlesForResearcher := slice }}
+  {{ if isset site.Taxonomies "researchers" }}
+    {{ $articlesForResearcher = index site.Taxonomies.researchers $slug}}
+  {{ end }}
+  {{ $author := site.GetPage (printf "/authors/%s" $slug) }}
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-md-10">
+          <h1>{{ safeHTML (partial "CorrectPunctuation" .Title) }}</h1>
+        </div>
+        <div class="col-4 col-md-2 mb-4 mb-md-0">
+          {{ if .Params.image }}
+            <div class="avatar">
+              {{ partial "commons/image.html"
+                    (dict
+                      "alt"    .Title
+                      "image"    .Params.image
+                      "class"    "img-fluid"
+                      "mobile"   "202x202"
+                      "tablet"   "192x192"
+                      "desktop"  "196x196"
+                    )}}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="hero__nav">
+        {{ partial "header/breadcrumbs.html" (dict "context" .) }}
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        {{ if .Content }}
+          <p>
+            {{ safeHTML (partial "CorrectPunctuation" .Content) }}
+          </p>
+        {{ end }}
+      </div>
+      <div class="offset-md-1 col-md-7">
+        {{ if $articlesForResearcher }}
+            {{ range $articlesForResearcher }}
+              <div class="mb-5">
+                {{ partial "articles/article.html" . }}
+              </div>
+            {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
