@@ -9,10 +9,7 @@ module.exports = {
             safelist: [
                 'show',
                 'active',
-                'collapsed',
-                'nav-level-1',
-                'nav-level-2',
-                'nav-level-3',
+                'modal-backdrop',
                 /^is-/,
                 /^has-/,
                 /^js-/
