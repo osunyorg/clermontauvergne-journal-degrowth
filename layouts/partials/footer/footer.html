@@ -1,11 +1,11 @@
-<footer class="footer">
+<footer role="contentinfo">
   <div class="container">
     <div class="row">
       <div class="col-md-6 mb-4">
         {{ with site.Data.journal }}
           <div itemscope itemtype="https://schema.org/Periodical">
             <meta itemprop="name" content="{{ .name }}">
-            <a href="/"><img src="{{ site.Data.website.logo }}" alt="{{ .name }}" width="140" height="45" itemprop="image"></a>
+            {{ partial "footer/logo.html" }}
             <p class="mt-2 small">ISSN: <span itemprop="issn">{{ trim .issn "\n" }}</span></p>
           </div>
         {{ end }}
