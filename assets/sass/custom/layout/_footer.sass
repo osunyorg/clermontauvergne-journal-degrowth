@@ -5,8 +5,14 @@ footer[role="contentinfo"]
     background-repeat: no-repeat
     padding-bottom: map-get($spacers, 5)
     padding-top: map-get($spacers, 5)
-    img
-        filter: invert(1)
+
+    .logo
+        img
+            height: 45px
+            width: auto
+        & + p
+            @extend .small
+            margin-top: map-get($spacers, 2)
 
     .content
         margin-bottom: 0

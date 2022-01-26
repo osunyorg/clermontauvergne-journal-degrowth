@@ -53,9 +53,7 @@
       <div>
         {{ if $articlesForResearcher }}
             {{ range $articlesForResearcher }}
-              <div class="mb-5">
                 {{ partial "articles/article.html" . }}
-              </div>
             {{ end }}
         {{ end }}
       </div>
