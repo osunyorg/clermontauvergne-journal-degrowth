@@ -42,15 +42,15 @@
     </div>
   </header>
   <div class="container">
-    <div class="row">
-      <div class="col-md-4">
+    <div class="content">
+      <div>
         {{ if .Content }}
           <p>
             {{ safeHTML (partial "CorrectPunctuation" .Content) }}
           </p>
         {{ end }}
       </div>
-      <div class="offset-md-1 col-md-7">
+      <div>
         {{ if $articlesForResearcher }}
             {{ range $articlesForResearcher }}
               <div class="mb-5">

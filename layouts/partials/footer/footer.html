@@ -1,7 +1,7 @@
 <footer role="contentinfo">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-4">
+    <div class="content">
+      <div>
         {{ with site.Data.journal }}
           <div itemscope itemtype="https://schema.org/Periodical">
             <meta itemprop="name" content="{{ .name }}">
@@ -10,7 +10,7 @@
           </div>
         {{ end }}
       </div>
-      <div class="col-md-6">
+      <div>
         {{ partial "commons/menu.html"
               (dict
                 "items"       site.Data.menus.primary

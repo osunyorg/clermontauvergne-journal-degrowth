@@ -6,14 +6,29 @@ module.exports = {
                 './themes/**/*.html',
                 'layouts/**/*.html'
             ],
-            safelist: [
-                'show',
-                'active',
-                'modal-backdrop',
-                /^is-/,
-                /^has-/,
-                /^js-/
-            ]
+            safelist: {
+                standard: [
+                  'show',
+                  'active',
+                  'modal-backdrop',
+                  /^is-/,
+                  /^has-/,
+                  /^js-/
+                ],
+                greedy: [
+                  /administrators__/,
+                  /articles__/,
+                  /authors__/,
+                  /categories__/,
+                  /page__/,
+                  /pages__/,
+                  /persons__/,
+                  /posts__/,
+                  /programs__/,
+                  /teachers__/,
+                  /volumes__/
+                ]
+            }
         },
         autoprefixer: {},
         cssnano: {
