@@ -17,14 +17,15 @@ footer[role="contentinfo"]
     .content
         margin-bottom: 0
 
-    .nav--legal
-        .nav-item
-            margin-right: 0
-
-    .nav
-        flex-direction: column
+    nav
+        ul
+            flex-direction: column
+            @include media-breakpoint-up(md)
+                align-items: flex-end
+        .nav-legal
+            li
+                margin-right: 0
+            a
+                font-size: px2rem(12)
         &:first-child
             margin-bottom: map-get($spacers, 4)
-
-        @include media-breakpoint-up(md)
-            align-items: flex-end
