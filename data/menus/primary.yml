@@ -15,4 +15,8 @@
   target: "/guidelines-for-submission/"
   kind: page
   children: []
+- title: First open Call for Contributions to Degrowth
+  target: "/call-for-contributions/"
+  kind: page
+  children: []
 
