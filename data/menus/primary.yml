@@ -7,10 +7,6 @@
   target: "/about-us/"
   kind: page
   children: []
-- title: Guidelines for submission
-  target: "/guidelines-for-submission/"
-  kind: page
-  children: []
 - title: First open Call for Contributions to Degrowth
   target: "/call-for-contributions/"
   kind: page
@@ -21,6 +17,10 @@
   children:
   - title: Get involved
     target: "/get-involved/"
+    kind: page
+    children: []
+  - title: Guidelines for submission
+    target: "/guidelines-for-submission/"
     kind: page
     children: []
 
