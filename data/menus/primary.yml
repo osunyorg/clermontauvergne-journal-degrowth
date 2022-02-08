@@ -18,9 +18,9 @@
 - title: Participate
   target: "/"
   kind: blank
-  children: []
-- title: Get involved
-  target: "/get-involved/"
-  kind: page
-  children: []
+  children:
+  - title: Get involved
+    target: "/get-involved/"
+    kind: page
+    children: []
 
