@@ -15,12 +15,12 @@
   target: "/call-for-contributions/"
   kind: page
   children: []
+- title: Guidelines for submission
+  target: "/guidelines-for-submission/"
+  kind: page
+  children: []
 - title: Participate
   target: "/"
   kind: blank
-  children:
-  - title: Guidelines for submission
-    target: "/guidelines-for-submission/"
-    kind: page
-    children: []
+  children: []
 
