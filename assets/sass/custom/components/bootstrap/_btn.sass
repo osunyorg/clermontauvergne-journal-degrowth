@@ -1,15 +1,10 @@
-.btn
-    text-transform: uppercase
+@if variable-exists(btn-icons)
+    @each $icon in $btn-icons
+        .btn-#{$icon}
+            &::before
+                background-image: url('/assets/images/icons/site-icons.svg##{$icon}')
 
-@each $icon in $icons
-    .btn--#{$icon}
-        @extend .icon--#{$icon}
-        &::before
-            background-position: center
-            background-repeat: no-repeat
-            content: ''
-            display: inline-block
-            height: 16px
-            margin-right: map-get($spacers, 1)
-            vertical-align: text-top
-            width: 16px
+.btn-eye
+    &::before
+        height: 11px
+        vertical-align: baseline

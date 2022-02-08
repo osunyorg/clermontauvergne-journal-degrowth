@@ -1,0 +1,22 @@
+header[role="banner"]
+    .navbar
+        @include media-breakpoint-up(md)
+            align-items: flex-start
+            padding-top: px2rem(40)
+            padding-bottom: 0
+            & > .container
+                align-items: flex-start
+    .logo
+        img
+            height: 44px
+            width: auto
+            @include media-breakpoint-up(md)
+                height: 64px
+    .menu
+        background: transparent
+        margin-top: -0.5rem
+        > ul li
+            border: 0
+            a
+                @include media-breakpoint-down(lg)
+                    font-size: px2rem(18)

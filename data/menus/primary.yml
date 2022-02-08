@@ -3,16 +3,20 @@
   target: "/"
   kind: url
   children: []
-- title: Volumes
-  target: "/volumes/"
-  kind: research_volumes
+- title: Get involved
+  target: "/get-involved/"
+  kind: page
   children: []
-- title: Authors
-  target: "/authors/"
-  kind: researchers
+- title: Call for Contributions
+  target: "/call-for-contributions/"
+  kind: page
   children: []
-- title: About
-  target: "/about/"
+- title: Guidelines for submission
+  target: "/guidelines-for-submission/"
+  kind: page
+  children: []
+- title: About us
+  target: "/about-us/"
   kind: page
   children: []
 

@@ -7,8 +7,16 @@
   target: "/privacy-policy/"
   kind: page
   children: []
-- title: Cookie policy
-  target: "/cookie-policy/"
+- title: Contact
+  target: "/contact/"
   kind: page
+  children: []
+- title: Facebook
+  target: https://www.facebook.com/degrowthjournal/
+  kind: url
+  children: []
+- title: Twitter
+  target: https://twitter.com/degrowthjournal/
+  kind: url
   children: []
 

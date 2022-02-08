@@ -1,30 +1,34 @@
-<footer class="footer">
+<footer role="contentinfo">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-4">
+    <div class="content">
+      <div>
         {{ with site.Data.journal }}
           <div itemscope itemtype="https://schema.org/Periodical">
             <meta itemprop="name" content="{{ .name }}">
-            <a href="/"><img src="{{ site.Data.website.logo }}" alt="{{ .name }}" width="140" height="45" itemprop="image"></a>
+            {{ partial "footer/logo.html" }}
             {{ with .issn }}
-              <p class="mt-2 small">ISSN: <span itemprop="issn">{{ trim . "\n" }}</span></p>
+              <p>ISSN: <span itemprop="issn">{{ trim . "\n" }}</span></p>
             {{ end }}
           </div>
         {{ end }}
       </div>
-      <div class="col-md-6">
-        {{ partial "commons/menu.html"
-              (dict
-                "items"       site.Data.menus.primary
-                "level"       1
-                "class"       "nav nav--primary"
-              )}}
-        {{ partial "commons/menu.html"
-              (dict
-                "items"       site.Data.menus.legal
-                "level"       1
-                "class"       "nav nav--legal"
-              )}}
+      <div>
+        <nav role="navigation" aria-label="{{ i18n "commons.menu.main" }}">
+          {{ partial "commons/menu.html"
+                (dict
+                  "items"       site.Data.menus.primary
+                  "level"       1
+                  "class"       "nav-primary"
+                )}}
+        </nav>
+        <nav role="navigation" aria-label="{{ i18n "commons.menu.legal" }}">
+          {{ partial "commons/menu.html"
+                (dict
+                  "items"       site.Data.menus.legal
+                  "level"       1
+                  "class"       "nav-legal"
+                )}}
+        </nav>
       </div>
     </div>
   </div>

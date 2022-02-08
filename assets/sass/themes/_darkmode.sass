@@ -9,57 +9,47 @@
 
     body
         background-color: $black
+        color: $white
 
-    body,
     a,
+    .nav-link
+        color: $white
+        &:hover,
+        &:focus
+            color: white
+
+    a:hover
+        text-decoration-color: $white
+
     .hero,
-    .nav-link,
-    .hero .breadcrumb a,
-    .navbar-nav .nav-link
+    .hero .breadcrumb a
         color: $white
 
     .breadcrumb-item.active
         color: $gray-300
 
-    a,
-    .nav-link,
-    .navbar-nav .nav-link
-        &:hover,
-        &:focus
-            color: $gray-300
+    .logo
+        img
+            filter: invert(1)
 
-    a:hover
-        text-decoration-color: $white
-
-    .navbar
-        &-toggler
-            &:focus
-                box-shadow: none
-            &-text
-                color: $white
-            &-icon
-                filter: invert(1)
-        &-brand
-            img
-                filter: none
-
-    .link--more::before
+    .link::before
         filter: invert(1)
 
     .avatar,
     .card-media
         background-color: $dark
 
-    .footer
-        background-color: $dark
-        img
-            filter: none
-        .nav-level-1
-            > li
-                > a,
-                > span
-                    color: $white
+    header[role="banner"]
+        nav[role=navigation]
+            button[type="button"]
+                color: $white
+                &:focus
+                    box-shadow: rgba($white, .2) 0 0 0 0.25rem
+            .navbar-toggler-icon
+                filter: invert(1)
 
-    @include media-breakpoint-down(lg)
-        #navbarNavDropdown
-            background: black
+    footer[role="contentinfo"]
+        background-color: $dark
+        .nav
+            a
+                color: $white

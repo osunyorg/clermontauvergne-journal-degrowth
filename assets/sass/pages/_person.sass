@@ -1,0 +1,13 @@
+.persons__page
+    .content
+        > div:first-of-type
+            @include media-breakpoint-up(md)
+                @include make-col(4)
+        > div:last-of-type
+            @include media-breakpoint-up(md)
+                @include make-col(7)
+        > div + div
+            @include media-breakpoint-up(md)
+                @include make-col-offset(1)
+    .article:not(:last-child)
+        margin-bottom: map-get($spacers, 5)
