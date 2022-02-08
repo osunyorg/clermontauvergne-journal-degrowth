@@ -15,4 +15,8 @@
   target: "/contact/"
   kind: page
   children: []
+- title: Facebook
+  target: https://www.facebook.com/degrowthjournal/
+  kind: url
+  children: []
 
