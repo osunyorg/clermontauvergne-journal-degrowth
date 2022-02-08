@@ -11,8 +11,8 @@
   target: "/authors/"
   kind: researchers
   children: []
-- title: About
-  target: "/about/"
+- title: About us
+  target: "/about-us/"
   kind: page
   children: []
 
