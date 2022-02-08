@@ -7,18 +7,18 @@
   target: "/about-us/"
   kind: page
   children: []
+- title: Get involved
+  target: "/get-involved/"
+  kind: page
+  children: []
+- title: Call for Contributions
+  target: "/call-for-contributions/"
+  kind: page
+  children: []
 - title: Participate
   target: "/"
   kind: blank
   children:
-  - title: Get involved
-    target: "/get-involved/"
-    kind: page
-    children: []
-  - title: Call for Contributions
-    target: "/call-for-contributions/"
-    kind: page
-    children: []
   - title: Guidelines for submission
     target: "/guidelines-for-submission/"
     kind: page
