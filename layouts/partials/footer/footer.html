@@ -6,7 +6,9 @@
           <div itemscope itemtype="https://schema.org/Periodical">
             <meta itemprop="name" content="{{ .name }}">
             <a href="/"><img src="{{ site.Data.website.logo }}" alt="{{ .name }}" width="140" height="45" itemprop="image"></a>
-            <p class="mt-2 small">ISSN: <span itemprop="issn">{{ trim .issn "\n" }}</span></p>
+            {{ with .issn }}
+              <p class="mt-2 small">ISSN: <span itemprop="issn">{{ trim . "\n" }}</span></p>
+            {{ end }}
           </div>
         {{ end }}
       </div>
