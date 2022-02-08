@@ -19,4 +19,8 @@
   target: "/call-for-contributions/"
   kind: page
   children: []
+- title: Participate
+  target: "/"
+  kind: blank
+  children: []
 
