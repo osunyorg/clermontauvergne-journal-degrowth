@@ -1,8 +1,4 @@
 ---
-- title: Home
-  target: "/"
-  kind: url
-  children: []
 - title: Get involved
   target: "/get-involved/"
   kind: page
