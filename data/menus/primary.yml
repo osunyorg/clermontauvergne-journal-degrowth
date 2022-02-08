@@ -19,8 +19,4 @@
   target: "/guidelines-for-submission/"
   kind: page
   children: []
-- title: Participate
-  target: "/"
-  kind: blank
-  children: []
 
