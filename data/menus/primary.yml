@@ -3,14 +3,6 @@
   target: "/"
   kind: url
   children: []
-- title: Volumes
-  target: "/volumes/"
-  kind: research_volumes
-  children: []
-- title: Authors
-  target: "/authors/"
-  kind: researchers
-  children: []
 - title: About us
   target: "/about-us/"
   kind: page
