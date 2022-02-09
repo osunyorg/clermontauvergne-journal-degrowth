@@ -1,4 +1,8 @@
 ---
+- title: Our Manifesto
+  target: "/the-manifesto-of-degrowth-journal/"
+  kind: page
+  children: []
 - title: Get involved
   target: "/get-involved/"
   kind: page
@@ -13,10 +17,6 @@
   children: []
 - title: About us
   target: "/about-us/"
-  kind: page
-  children: []
-- title: Our Manifesto
-  target: "/the-manifesto-of-degrowth-journal/"
   kind: page
   children: []
 
