@@ -15,4 +15,8 @@
   target: "/about-us/"
   kind: page
   children: []
+- title: Our Manifesto
+  target: "/the-manifesto-of-degrowth-journal/"
+  kind: page
+  children: []
 
