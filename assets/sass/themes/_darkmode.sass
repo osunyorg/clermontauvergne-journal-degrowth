@@ -8,29 +8,34 @@
         color: black
 
     body
-        background-color: $black
-        color: $white
+        background-color: black
+        color: white
 
     a,
     .nav-link
-        color: $white
+        color: white
         text-decoration-color: rgba(white, 0.6)
         &:hover,
         &:focus
             color: white
 
     a:hover
-        text-decoration-color: $white
+        text-decoration-color: white
 
     .hero,
     .hero .breadcrumb a
-        color: $white
+        color: white
 
-    .breadcrumb-item+.breadcrumb-item:before
-        color: $white
+    .hero .breadcrumb a
+        text-decoration-color: rgba(white, .3)
+        &:hover
+            text-decoration-color: white
 
-    .breadcrumb-item.active
-        color: $gray-300
+    .breadcrumb
+        &-item+.breadcrumb-item:before
+            color: white
+        &-item.active
+            color: rgba(white, .8)
 
     .logo
         img
@@ -43,10 +48,11 @@
     header[role="banner"]
         nav[role=navigation]
             button[type="button"]
-                color: $white
+                color: white
 
     footer[role="contentinfo"]
         background-color: $dark
         .nav
             a
-                color: $white
+                color: white
+                text-decoration-color: transparent
