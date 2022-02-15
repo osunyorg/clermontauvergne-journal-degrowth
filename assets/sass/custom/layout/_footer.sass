@@ -16,13 +16,17 @@ footer[role="contentinfo"]
 
     .content
         margin-bottom: 0
+        > div:last-child
+            @extend .col-md-8
 
     nav
         ul
             flex-direction: column
             @include media-breakpoint-up(md)
                 align-items: flex-end
-        .nav-legal
+        .nav-legal,
+        .nav-social
+            flex-direction: column
             li
                 margin-right: 0
             a
