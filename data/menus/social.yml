@@ -1,2 +1,6 @@
---- []
+---
+- title: Facebook
+  target: https://www.facebook.com/degrowthjournal/
+  kind: url
+  children: []
 
