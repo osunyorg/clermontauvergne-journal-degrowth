@@ -19,8 +19,4 @@
   target: "/about-us/"
   kind: page
   children: []
-- title: Contact
-  target: "/contact-1/"
-  kind: page
-  children: []
 
