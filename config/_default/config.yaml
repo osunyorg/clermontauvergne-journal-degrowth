@@ -1,0 +1,10 @@
+baseURL: https://degrowthjournal.org/
+theme: osuny-hugo-theme
+
+## LANGUAGE
+defaultContentLanguage: en
+languageCode: en
+
+## ADVANCED
+paginate: 18
+enableRobotsTXT: true
