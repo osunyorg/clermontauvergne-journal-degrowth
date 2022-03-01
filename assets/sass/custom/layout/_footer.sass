@@ -19,7 +19,13 @@ footer[role="contentinfo"]
         > div:last-child
             @extend .col-md-8
 
+    .credit
+        display: block
+        text-align: right
+        &, & a
+            font-size: px2rem(12)
     nav
+        margin-bottom: map-get($spacers, 4)
         ul
             flex-direction: column
             @include media-breakpoint-up(md)
@@ -33,5 +39,3 @@ footer[role="contentinfo"]
                 margin-right: 0
             a
                 font-size: px2rem(12)
-        &:first-child
-            margin-bottom: map-get($spacers, 4)
