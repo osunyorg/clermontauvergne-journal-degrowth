@@ -24,8 +24,16 @@ footer[role="contentinfo"]
         text-align: right
         &, & a
             font-size: px2rem(12)
+
+    nav + .credit
+        &::before
+            content: none
+
     nav
         margin-bottom: map-get($spacers, 4)
+        @include media-breakpoint-up(md)
+            margin-left: 0
+            margin-right: -$nav-link-padding-x
         ul
             flex-direction: column
             @include media-breakpoint-up(md)
