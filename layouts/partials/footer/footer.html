@@ -4,10 +4,10 @@
       <div>
         {{ with site.Data.journal }}
           <div itemscope itemtype="https://schema.org/Periodical">
-            <meta itemprop="name" content="{{ .name }}">
+            <meta itemprop="name" content="{{ partial "PrepareHTML" .title }}">
             {{ partial "footer/logo.html" }}
             {{ with .issn }}
-              <p>ISSN: <span itemprop="issn">{{ trim . "\n" }}</span></p>
+              <p>ISSN: <span itemprop="issn">{{ chomp . }}</span></p>
             {{ end }}
           </div>
         {{ end }}
