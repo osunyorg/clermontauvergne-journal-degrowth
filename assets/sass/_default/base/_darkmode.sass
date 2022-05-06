@@ -19,6 +19,9 @@
         &:focus
             color: white
 
+    .btn-primary
+        filter: invert(1)
+
     a:hover
         text-decoration-color: white
 
@@ -45,6 +48,17 @@
     .card-media
         background-color: $dark
 
+    .toc .active
+        color: rgba(white, .8)
+
+    .block
+        &-call_to_action
+            .call_to_action
+                border-color: white
+        &-timeline
+            .events::before,
+            .event::before
+                background-color: white
     header[role="banner"]
         nav[role=navigation]
             button[type="button"]
