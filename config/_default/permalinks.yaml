@@ -1,4 +1,0 @@
-pages:          /pages/:slug/
-articles:       /articles/:slug/
-persons:        /authors/:slug/
-researchers:    /authors/:slug/publications
