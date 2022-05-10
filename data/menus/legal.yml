@@ -3,4 +3,8 @@
   target: "/privacy-policy/"
   kind: page
   children: []
+- title: Legals mentions
+  target: "/legals-mentions/"
+  kind: page
+  children: []
 
