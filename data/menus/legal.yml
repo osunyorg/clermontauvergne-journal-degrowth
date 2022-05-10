@@ -1,8 +1,4 @@
 ---
-- title: Terms of use
-  target: "/terms-of-use/"
-  kind: page
-  children: []
 - title: Privacy policy
   target: "/privacy-policy/"
   kind: page
