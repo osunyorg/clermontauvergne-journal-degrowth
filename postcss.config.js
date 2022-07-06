@@ -61,7 +61,10 @@ var devPlugins = {},
                     /__home/,
                     /__page/,
                     /__section/,
-                    /__term/
+                    /__term/,
+                    /posts/,
+                    /call_to_action/,
+                    /block-timeline/
                 ]
             }
         }
