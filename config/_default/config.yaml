@@ -7,3 +7,6 @@ removePathAccents: true
 module:
   _merge: deep
 
+params:
+  breadcrumb:
+    position: hero-end
