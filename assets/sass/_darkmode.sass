@@ -46,10 +46,7 @@
 
     .avatar,
     .card-media
-        background-color: $dark
-
-    .toc .active
-        color: rgba(white, .8)
+        background-color: $color-dark
 
     .block
         &-call_to_action
@@ -59,14 +56,62 @@
             .events::before,
             .event::before
                 background-color: white
-    header[role="banner"]
+    header#document-header
+        &.is-sticky, html.has-menu-opened &
+            background: black
         nav[role=navigation]
             button[type="button"]
                 color: white
+    footer#document-footer
+        background-color: $color-dark
+        color: white
+        a, span
+            color: white !important
+            text-decoration-color: rgba(255, 255, 255, 0.3) !important
 
-    footer[role="contentinfo"]
-        background-color: $dark
-        .nav
-            a
+
+    .toc,
+    .toc-title,
+    footer#document-footer,
+    header#document-header,
+    .breadcrumb
+        color: white !important
+        a, span
+            color: white !important
+            &:hover
+                text-decoration-color: white !important
+
+        a.active
+            text-decoration-color: white !important
+
+    footer#document-footer,
+    .breadcrumb
+        a, span
+            text-decoration-color: $color-border-dark !important
+           
+    .breadcrumb
+        li:not(:first-child)
+            &::before
                 color: white
-                text-decoration-color: transparent
+
+    .toc-cta
+        background: black
+        .toc-cta-title
+            span, &:after
+                color: white !important
+    .toc-container
+        // in full width page or under md breakpoint (mobile)
+        @include in-page-without-sidebar
+            background: $color-dark !important
+            button
+                border-top-color: $color-border-dark
+                color: white
+            .toc-title
+                border-bottom-color: $color-border-dark
+        @include media-breakpoint-down(desktop)
+            background: $color-dark !important
+            button
+                border-top-color: $color-border-dark
+                color: white
+            .toc-title
+                border-bottom-color: $color-border-dark

@@ -1,19 +1,12 @@
-theme: osuny-hugo-theme
-
-## LANGUAGE
-defaultContentLanguage: en
-languageCode: en
-
-## ADVANCED
+theme: osuny-hugo-theme-aaa
 paginate: 18
 enableRobotsTXT: true
+removePathAccents: true
 
 ## MODULE
 module:
   _merge: deep
 
-## PARAMS
 params:
-  _merge: deep
-  cookie_banner:
-    enable: false
+  breadcrumb:
+    position: hero-end
