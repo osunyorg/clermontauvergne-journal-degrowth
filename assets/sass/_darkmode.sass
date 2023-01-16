@@ -57,8 +57,6 @@
             .event::before
                 background-color: white
     header#document-header
-        *, a
-            color: white !important
         &.is-sticky, html.has-menu-opened &
             background: black
         nav[role=navigation]
@@ -80,12 +78,17 @@
         color: white !important
         a, span
             color: white !important
-            text-decoration-color: $color-border-dark !important
             &:hover
                 text-decoration-color: white !important
+
         a.active
             text-decoration-color: white !important
 
+    footer#document-footer,
+    .breadcrumb
+        a, span
+            text-decoration-color: $color-border-dark !important
+           
     .breadcrumb
         li:not(:first-child)
             &::before
