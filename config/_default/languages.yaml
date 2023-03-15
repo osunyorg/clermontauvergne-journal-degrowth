@@ -5,3 +5,8 @@ en:
   contentDir: content/en
   languageCode: en
   languageName: English
+  permalinks:
+    papers: /papers/:year-:month-:day-:slug/
+    volumes: /volumes/:year-:slug/
+    persons: /team/:slug/
+    researchers: /team/:slug/papers/
