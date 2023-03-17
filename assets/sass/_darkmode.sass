@@ -18,9 +18,15 @@
         &:hover,
         &:focus
             color: white
+    button
+        color: white
 
     .btn-primary
         filter: invert(1)
+
+    .squared-button
+        &::before
+            color: black
 
     a:hover
         text-decoration-color: white
@@ -115,3 +121,9 @@
                 color: white
             .toc-title
                 border-bottom-color: $color-border-dark
+
+    .modal-content
+        background-color: black !important
+        .modal-header
+            button
+                color: white
