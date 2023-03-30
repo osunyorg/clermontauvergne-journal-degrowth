@@ -1,0 +1,14 @@
+volumes:
+  abstract: Abstract
+  paper:
+    plural_name: Papers
+    singular_name: Paper
+  authors: Authors
+  full_text: Full text
+  issn: ISSN
+  keywords: Keywords
+  nature: Nature
+  plural_name: Issues
+  singular_name: Issue
+  table_contents: Table of contents
+  volume_number: ''
