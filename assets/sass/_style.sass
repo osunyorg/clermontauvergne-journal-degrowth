@@ -24,3 +24,22 @@ footer#document-footer
     @include media-breakpoint-up(desktop)
         .footer-links
             text-align: right
+
+.papers__page
+    .paper-sidebar
+        left: auto
+        right: 0
+        @include container-margin-right
+    @include media-breakpoint-up(desktop)
+        &:not(.full-width) 
+            .container
+                .content
+                    padding-right: offset(4)
+                    padding-left: 0
+            .blocks
+                .block
+                    .block-content
+                        padding-left: 0
+                        padding-right: offset(4)
+
+
