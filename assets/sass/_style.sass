@@ -35,11 +35,12 @@ footer#document-footer
         right: 0
         @include container-margin-right
     @include media-breakpoint-up(desktop)
-        &:not(.full-width) 
-            .container
-                .content
-                    padding-right: offset(4)
-                    padding-left: 0
+        &:not(.full-width)
+            .document-content
+                .container
+                    .content
+                        padding-right: offset(4)
+                        padding-left: 0
             .blocks
                 .block
                     .block-content
