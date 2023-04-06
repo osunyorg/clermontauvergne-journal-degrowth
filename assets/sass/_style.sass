@@ -12,6 +12,13 @@ body
 .volumes__term
     .document-aside
         display: none
+    @include media-breakpoint-up(desktop)
+        .hero
+            min-height: 0
+            figure
+                position: relative
+                img
+                    position: absolute
 
 footer#document-footer
     background-image: url('/assets/images/shape.svg')
