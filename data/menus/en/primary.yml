@@ -2,8 +2,8 @@
 title: Primary
 items:
 - title: Publications
-  target: "/publications/"
-  kind: page
+  target: "/issues/2023-volume-1/"
+  kind: volume
   children: []
 - title: Our Manifesto
   target: "/the-manifesto-of-degrowth-journal/"
@@ -28,9 +28,5 @@ items:
 - title: Contact
   target: "/contact/"
   kind: page
-  children: []
-- title: Publications
-  target: "/issues/2023-volume-1/"
-  kind: volume
   children: []
 
