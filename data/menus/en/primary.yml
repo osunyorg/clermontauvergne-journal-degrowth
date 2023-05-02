@@ -1,6 +1,10 @@
 ---
 title: Primary
 items:
+- title: Publications
+  target: "/publications/"
+  kind: page
+  children: []
 - title: Our Manifesto
   target: "/the-manifesto-of-degrowth-journal/"
   kind: page
@@ -23,10 +27,6 @@ items:
   children: []
 - title: Contact
   target: "/contact/"
-  kind: page
-  children: []
-- title: Publications
-  target: "/publications/"
   kind: page
   children: []
 
