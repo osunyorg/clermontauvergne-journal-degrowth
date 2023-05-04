@@ -10,3 +10,5 @@ module:
 params:
   breadcrumb:
     position: hero-end
+  summary:
+    position: hero
