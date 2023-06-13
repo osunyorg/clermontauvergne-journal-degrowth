@@ -17,10 +17,6 @@ items:
   target: "/get-involved/"
   kind: page
   children: []
-- title: Guidelines for submission
-  target: "/guidelines-for-submission/"
-  kind: page
-  children: []
 - title: About us
   target: "/about-us/"
   kind: page
