@@ -5,3 +5,6 @@ external_domains:
   - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
   - "plausible.io"
+  - "creativecommons.org"
+  - "i.creativecommons.org"
+  - "licensebuttons.net"
