@@ -12,3 +12,5 @@ volumes:
   singular_name: Volume
   table_contents: Table of contents
   volume_number: ''
+papers:
+  citations: How to cite
