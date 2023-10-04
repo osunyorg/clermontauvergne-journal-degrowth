@@ -1,9 +1,9 @@
 /* eslint-disable no-undef */
+var devPlugins = {},
+    productionPlugins = {
+        autoprefixer: {}
+    };
+
 module.exports = {
-    plugins: {
-        autoprefixer: {},
-        cssnano: {
-            preset: 'default'
-        }
-    }
+    plugins: process.env.HUGO_ENVIRONMENT === 'production' ? productionPlugins : devPlugins
 };
