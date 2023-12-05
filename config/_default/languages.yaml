@@ -8,3 +8,12 @@ en:
   permalinks:
     papers: /publications/:year-:month-:day-:slug/
     volumes: /issues/:year-:slug/
+  taxonomies:
+    administrator: administrators
+    author: authors
+    category: categories
+    posts_category: posts_categories
+    events_category: events_categories
+    diploma: diplomas
+    researcher: researchers
+    teacher: teachers
