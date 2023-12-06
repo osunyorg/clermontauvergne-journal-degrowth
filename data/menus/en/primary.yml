@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Call for Contributions
-  target: "/call-for-contributions/"
+  target: "/author-guidelines/"
   kind: page
   children: []
 - title: Get involved
