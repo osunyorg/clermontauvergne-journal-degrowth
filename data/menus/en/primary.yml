@@ -9,7 +9,7 @@ items:
   target: "/the-manifesto-of-degrowth-journal/"
   kind: page
   children: []
-- title: Call for Contributions
+- title: Guide for authors
   target: "/author-guidelines/"
   kind: page
   children: []
