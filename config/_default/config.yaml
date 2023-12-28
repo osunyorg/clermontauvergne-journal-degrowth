@@ -12,3 +12,6 @@ params:
     position: hero-end
   summary:
     position: hero
+  papers:
+    sidebar:
+      direction: start
