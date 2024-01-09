@@ -14,4 +14,4 @@ params:
     position: hero
   papers:
     sidebar:
-      direction: start
+      direction: end
