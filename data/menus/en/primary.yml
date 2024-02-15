@@ -9,6 +9,10 @@ items:
     target: https://www.degrowthjournal.org/volumes/2023-volume-1/
     kind: url
     children: []
+  - title: Volume 2 (2024)
+    target: https://www.degrowthjournal.org/volumes/2024-volume-2/
+    kind: url
+    children: []
 - title: Our Manifesto
   target: "/the-manifesto-of-degrowth-journal/"
   kind: page
