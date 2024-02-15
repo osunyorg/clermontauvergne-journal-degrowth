@@ -52,19 +52,23 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Publications
     ranks:
-      self: false
-      children: 2
+      self: 2
+      children: 3
     data:
+      page: 
+        path: "/publications/"
+        slug: "publications"
+        file: "content/en/papers/_index.html"
       show_main_description: false
       show_descriptions: true
       show_images: false
       layout: grid
       pages:
-        - path: "/publications/"
-          slug: "publications"
-          file: "content/en/papers/_index.html"
+        - path: "/volumes/"
+          slug: "volumes"
+          file: "content/en/volumes/_index.html"
           external: false
         - path: "/the-manifesto-of-degrowth-journal/"
           slug: "the-manifesto-of-degrowth-journal"
