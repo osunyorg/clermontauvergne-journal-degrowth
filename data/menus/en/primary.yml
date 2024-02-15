@@ -2,9 +2,13 @@
 title: Primary
 items:
 - title: Publications
-  target: "/publications/"
+  target: "/volumes/"
   kind: page
-  children: []
+  children:
+  - title: Volume 1
+    target: https://www.degrowthjournal.org/volumes/2023-volume-1/
+    kind: url
+    children: []
 - title: Our Manifesto
   target: "/the-manifesto-of-degrowth-journal/"
   kind: page
