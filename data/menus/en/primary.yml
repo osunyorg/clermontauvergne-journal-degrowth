@@ -2,7 +2,7 @@
 title: Primary
 items:
 - title: Publications
-  target: "/volumes/"
+  target: "/publications/"
   kind: page
   children:
   - title: Volume 1 (2023)
