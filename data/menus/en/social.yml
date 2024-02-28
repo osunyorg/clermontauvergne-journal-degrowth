@@ -1,6 +1,10 @@
 ---
 title: Social
 items:
+- title: ISSN 2977-1951
+  target: ''
+  kind: blank
+  children: []
 - title: Facebook
   target: https://www.facebook.com/degrowthjournal
   kind: url
