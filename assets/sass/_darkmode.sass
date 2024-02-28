@@ -1,137 +1,143 @@
 @media (prefers-color-scheme: dark)
-    ::selection
-        background: rgba(white, .5)
-        color: black
-
-    ::-moz-selection
-        background: rgba(white, .5)
-        color: black
-
-    body
-        background-color: black
-        color: white
-
-    a,
-    .nav-link
-        color: white
-        text-decoration-color: rgba(white, 0.6)
-        &:hover,
-        &:focus
-            color: white
-    button
-        color: white
-
-    .btn-primary
-        filter: invert(1)
-
-    .squared-button
-        &::before
-            color: black
-
-    a:hover
-        text-decoration-color: white
-
-    .hero,
-    .hero .breadcrumb a
-        color: white
-
-    .hero .breadcrumb a
-        text-decoration-color: rgba(white, .3)
-        &:hover
-            text-decoration-color: white
-
-    .breadcrumb
-        &-item+.breadcrumb-item:before
-            color: white
-        &-item.active
-            color: rgba(white, .8)
-
     .logo
         img
             filter: invert(1)
-
-    .avatar,
-    .card-media
-        background-color: $color-dark
-
-    .block
-        &-call_to_action
-            .call_to_action
-                border-color: white
-        &-timeline
-            .timeline-events::before,
-            .timeline-event::before
-                background-color: white
-    header#document-header
-        &.is-sticky, html.has-menu-opened &
-            background: black
-            .dropdown-menu 
-                background: black
-                color: white
-        nav[role=navigation]
-            button[type="button"]
-                color: white
     footer#document-footer
         background-color: $color-dark
-        color: white
-        a, span
-            color: white !important
-            text-decoration-color: rgba(255, 255, 255, 0.3) !important
+
+//     ::selection
+//         background: rgba(white, .5)
+//         color: black
+
+//     ::-moz-selection
+//         background: rgba(white, .5)
+//         color: black
+
+//     body
+//         background-color: black
+//         color: white
+
+//     a,
+//     .nav-link
+//         color: white
+//         text-decoration-color: rgba(white, 0.6)
+//         &:hover,
+//         &:focus
+//             color: white
+//     button
+//         color: white
+
+//     .btn-primary
+//         filter: invert(1)
+
+//     .squared-button
+//         &::before
+//             color: black
+
+//     a:hover
+//         text-decoration-color: white
+
+//     .hero,
+//     .hero .breadcrumb a
+//         color: white
+
+//     .hero .breadcrumb a
+//         text-decoration-color: rgba(white, .3)
+//         &:hover
+//             text-decoration-color: white
+
+//     .breadcrumb
+//         &-item+.breadcrumb-item:before
+//             color: white
+//         &-item.active
+//             color: rgba(white, .8)
+
+//     .logo
+//         img
+//             filter: invert(1)
+
+//     .avatar,
+//     .card-media
+//         background-color: $color-dark
+
+//     .block
+//         &-call_to_action
+//             .call_to_action
+//                 border-color: white
+//         &-timeline
+//             .timeline-events::before,
+//             .timeline-event::before
+//                 background-color: white
+//     header#document-header
+//         &.is-sticky, html.has-menu-opened &
+//             background: black
+//             .dropdown-menu 
+//                 background: black
+//                 color: white
+//         nav[role=navigation]
+//             button[type="button"]
+//                 color: white
+//     footer#document-footer
+//         background-color: $color-dark
+//         color: white
+//         a, span
+//             color: white !important
+//             text-decoration-color: rgba(255, 255, 255, 0.3) !important
 
 
-    .toc,
-    .toc-title,
-    footer#document-footer,
-    header#document-header,
-    .breadcrumb
-        color: white !important
-        a, span
-            color: white !important
-            &:hover
-                text-decoration-color: white !important
+//     .toc,
+//     .toc-title,
+//     footer#document-footer,
+//     header#document-header,
+//     .breadcrumb
+//         color: white !important
+//         a, span
+//             color: white !important
+//             &:hover
+//                 text-decoration-color: white !important
 
-        a.active
-            text-decoration-color: white !important
+//         a.active
+//             text-decoration-color: white !important
 
-    footer#document-footer,
-    .breadcrumb
-        a, span
-            text-decoration-color: $color-border-dark !important
+//     footer#document-footer,
+//     .breadcrumb
+//         a, span
+//             text-decoration-color: $color-border-dark !important
            
-    .breadcrumb
-        li:not(:first-child)
-            &::before
-                color: white
+//     .breadcrumb
+//         li:not(:first-child)
+//             &::before
+//                 color: white
 
-    .toc-cta
-        background: black
-        .toc-cta-title
-            span, &:after
-                color: white !important
-    .toc-container
-        // in full width page or under md breakpoint (mobile)
-        @include in-page-without-sidebar
-            background: $color-dark !important
-            button
-                border-top-color: $color-border-dark
-                color: white
-            .toc-title
-                border-bottom-color: $color-border-dark
-        @include media-breakpoint-down(desktop)
-            background: $color-dark !important
-            button
-                border-top-color: $color-border-dark
-                color: white
-            .toc-title
-                border-bottom-color: $color-border-dark
+//     .toc-cta
+//         background: black
+//         .toc-cta-title
+//             span, &:after
+//                 color: white !important
+//     .toc-container
+//         // in full width page or under md breakpoint (mobile)
+//         @include in-page-without-sidebar
+//             background: $color-dark !important
+//             button
+//                 border-top-color: $color-border-dark
+//                 color: white
+//             .toc-title
+//                 border-bottom-color: $color-border-dark
+//         @include media-breakpoint-down(desktop)
+//             background: $color-dark !important
+//             button
+//                 border-top-color: $color-border-dark
+//                 color: white
+//             .toc-title
+//                 border-bottom-color: $color-border-dark
 
-    .modal-content
-        background-color: black !important
-        .modal-header
-            button
-                color: white
+//     .modal-content
+//         background-color: black !important
+//         .modal-header
+//             button
+//                 color: white
 
-    .paper
-        .paper-volume
-            a
-                color: white
+//     .paper
+//         .paper-volume
+//             a
+//                 color: white

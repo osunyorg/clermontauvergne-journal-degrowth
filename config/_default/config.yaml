@@ -8,6 +8,8 @@ module:
   _merge: deep
 
 params:
+  debug:
+    productionUrl: https://www.degrowthjournal.org
   breadcrumb:
     position: hero-end
   summary:
