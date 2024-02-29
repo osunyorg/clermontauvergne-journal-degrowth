@@ -9,6 +9,19 @@ body
 .breadcrumb-nav
     display: none
 
+.toc ol .active
+    color: inherit
+    &::before
+        content: ''
+        display: inline-block
+        background: var(--color-accent)
+        vertical-align: middle
+        width: 10px
+        height: 10px
+        margin-right: 10px
+
+
+
 .volumes__term
     .document-aside
         display: none
