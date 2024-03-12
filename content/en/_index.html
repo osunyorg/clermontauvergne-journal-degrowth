@@ -130,19 +130,20 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Volumes
+      
     ranks:
-      self: 2
+      self: false
+      children: 2
     data:
-      page: 
-        path: "/volumes/"
-        slug: "volumes"
-        file: "volumes/_index.html"
       show_main_description: false
-      show_descriptions: false
+      show_descriptions: true
       show_images: true
       layout: grid
       pages:
+        - path: "/volumes/"
+          slug: "volumes"
+          file: "volumes/_index.html"
+          external: false
 
 
 
