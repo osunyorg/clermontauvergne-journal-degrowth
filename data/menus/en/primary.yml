@@ -1,6 +1,10 @@
 ---
 title: Primary
 items:
+- title: Submit
+  target: "/submit/"
+  kind: page
+  children: []
 - title: Publications
   target: "/publications/"
   kind: page
