@@ -17,12 +17,12 @@ items:
   target: "/submit/"
   kind: page
   children: []
-- title: Our Manifesto
-  target: "/the-manifesto-of-degrowth-journal/"
-  kind: page
-  children: []
 - title: Guide for authors
   target: "/author-guidelines/"
+  kind: page
+  children: []
+- title: Our Manifesto
+  target: "/the-manifesto-of-degrowth-journal/"
   kind: page
   children: []
 - title: Get involved
