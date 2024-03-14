@@ -14,8 +14,8 @@ items:
     kind: volume
     children: []
 - title: Submit
-  target: "/submit/"
-  kind: page
+  target: https://journals.gla.ac.uk/degrowth/
+  kind: url
   children: []
 - title: Guide for authors
   target: "/author-guidelines/"
