@@ -17,6 +17,14 @@ items:
   target: https://journals.gla.ac.uk/degrowth/
   kind: url
   children: []
+- title: Special calls
+  target: "/special-calls/"
+  kind: page
+  children:
+  - title: Anarchy and Degrowth
+    target: "/special-calls/anarchy-and-degrowth/"
+    kind: page
+    children: []
 - title: Guide for authors
   target: "/author-guidelines/"
   kind: page
