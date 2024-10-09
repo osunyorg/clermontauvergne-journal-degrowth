@@ -5,16 +5,16 @@ items:
   target: "/legal/"
   kind: page
   children: []
+- title: Accessibilité
+  target: "/accessibilite/"
+  kind: page
+  children: []
 - title: Sitemap
   target: "/sitemap/"
   kind: page
   children: []
 - title: Privacy policy
   target: "/privacy-policy/"
-  kind: page
-  children: []
-- title: Accessibilité
-  target: "/accessibilite/"
   kind: page
   children: []
 
