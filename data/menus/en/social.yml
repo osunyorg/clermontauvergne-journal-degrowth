@@ -5,10 +5,6 @@ items:
   target: ''
   kind: blank
   children: []
-- title: Facebook
-  target: https://www.facebook.com/degrowthjournal
-  kind: url
-  children: []
 - title: Twitter
   target: https://twitter.com/degrowthjournal/
   kind: url
