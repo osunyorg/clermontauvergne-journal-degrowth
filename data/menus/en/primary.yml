@@ -9,14 +9,18 @@ items:
     target: "/volumes/2023-volume-1/"
     kind: volume
     children: []
+    file: content/en/volumes/2023-volume-1/_index.html
   - title: Volume 2 (2024)
     target: "/volumes/2024-volume-2/"
     kind: volume
     children: []
+    file: content/en/volumes/2024-volume-2/_index.html
+  file: content/en/papers/_index.html
 - title: Submit
   target: https://journals.gla.ac.uk/degrowth/
   kind: url
   children: []
+  file: content/en/pages/submit/_index.html
 - title: Special calls
   target: "/special-calls/"
   kind: page
@@ -25,24 +29,31 @@ items:
     target: "/special-calls/anarchy-and-degrowth/"
     kind: page
     children: []
+    file: content/en/pages/special-calls/anarchy-and-degrowth/_index.html
+  file: content/en/pages/special-calls/_index.html
 - title: Guide for authors
   target: "/author-guidelines/"
   kind: page
   children: []
+  file: content/en/pages/author-guidelines/_index.html
 - title: Our Manifesto
   target: "/the-manifesto-of-degrowth-journal/"
   kind: page
   children: []
+  file: content/en/pages/the-manifesto-of-degrowth-journal/_index.html
 - title: Get involved
   target: "/get-involved/"
   kind: page
   children: []
+  file: content/en/pages/get-involved/_index.html
 - title: About us
   target: "/about-us/"
   kind: page
   children: []
+  file: content/en/pages/about-us/_index.html
 - title: Contact
   target: "/contact/"
   kind: page
   children: []
+  file: content/en/pages/contact/_index.html
 
