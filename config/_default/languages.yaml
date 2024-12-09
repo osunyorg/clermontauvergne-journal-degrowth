@@ -7,13 +7,24 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
-      x: >-
-        https://twitter.com/degrowthjournal/
-      linkedin: >-
-        https://www.linkedin.com/company/degrowth-journal/
-      facebook: >-
-        https://www.facebook.com/degrowthjournal
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            degrowthjournal
+          value: >-
+            https://www.facebook.com/degrowthjournal
+        linkedin:
+          label: >-
+            degrowth-journal
+          value: >-
+            https://www.linkedin.com/company/degrowth-journal/
+        x:
+          label: >-
+            degrowthjournal
+          value: >-
+            https://x.com/degrowthjournal
+
   permalinks:
     papers: /publications/:year-:month-:day-:slug/
     volumes: /volumes/:year-:slug/
