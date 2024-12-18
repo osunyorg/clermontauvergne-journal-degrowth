@@ -1,20 +1,27 @@
 ---
-title: >-
-  Degrowth Journal
 breadcrumb_title: >-
   Home
+title: >-
+  Degrowth Journal
 url: "/"
-hugo:
-  permalink: "/"
-  file: "content/en/_index.html"
-  path: ""
-  slug: ""
+slug: ""
+date: 2023-12-07T01:03:34+01:00
+lastmod: 2024-10-22T07:31:59+02:00
+meta:
+  hugo:
+    permalink: "/"
+    path: "/"
+    file: "content/en/_index.html"
+    slug: ""
+  dates:
+    created_at: 2022-04-08T12:05:40+02:00
+    updated_at: 2024-10-22T07:31:59+02:00
+    published_at: 2023-12-07T01:03:34+01:00
 
 breadcrumbs:
   - title: >-
       Home
 
-full_width: true
 design:
   full_width: true
   toc:
@@ -57,7 +64,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 8
+  seconds: 10
   text: >-
     less than a minute
 contents:
@@ -65,9 +72,13 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
-      self: false
+      base: 2
       children: 2
+    top:
+      active: false
     data:
       options:
         image: false
@@ -76,38 +87,50 @@ contents:
 
       layout: grid
       pages:
-        - path: "/author-guidelines/"
+        - permalink: "/author-guidelines/"
+          path: "/pages/author-guidelines"
           slug: "author-guidelines"
-          file: "pages/author-guidelines/_index.html"
-          external: false
-        - path: "/special-calls/"
+          file: "content/en/pages/author-guidelines/_index.html"
+        - permalink: "/special-calls/"
+          path: "/pages/special-calls"
           slug: "special-calls"
-          file: "pages/special-calls/_index.html"
-          external: false
-        - path: "/the-manifesto-of-degrowth-journal/"
+          file: "content/en/pages/special-calls/_index.html"
+        - permalink: "/the-manifesto-of-degrowth-journal/"
+          path: "/pages/the-manifesto-of-degrowth-journal"
           slug: "the-manifesto-of-degrowth-journal"
-          file: "pages/the-manifesto-of-degrowth-journal/_index.html"
-          external: false
-        - path: "/get-involved/"
+          file: "content/en/pages/the-manifesto-of-degrowth-journal/_index.html"
+        - permalink: "/get-involved/"
+          path: "/pages/get-involved"
           slug: "get-involved"
-          file: "pages/get-involved/_index.html"
-          external: false
-        - path: "/about-us/"
+          file: "content/en/pages/get-involved/_index.html"
+        - permalink: "/about-us/"
+          path: "/pages/about-us"
           slug: "about-us"
-          file: "pages/about-us/_index.html"
-          external: false
-        - path: "/contact/"
+          file: "content/en/pages/about-us/_index.html"
+        - permalink: "/contact/"
+          path: "/pages/contact"
           slug: "contact"
-          file: "pages/contact/_index.html"
-          external: false
+          file: "content/en/pages/contact/_index.html"
+
 
 
   - kind: block
     template: call_to_action
     title: >-
       New call for papers
+    slug: >-
+      new-call-for-papers
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          New call for papers
+        heading: 2
+      description: >-
+        <p>We have launched a call for papers for a special issue on Anarchy and Degrowth!</p>
     data:
       layout: accent_background
       text: >-
@@ -128,7 +151,6 @@ contents:
             https://www.degrowthjournal.org/special-calls/anarchy-and-degrowth/
 
           target_blank: false
-
         - title: >-
             Guide for regular submissions  →
 
@@ -138,14 +160,23 @@ contents:
           target_blank: false
 
 
-
   - kind: block
     template: papers
     title: >-
       Latest publications
+    slug: >-
+      latest-publications
     ranks:
+      base: 2
       self: 2
       children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Latest publications
+        heading: 2
+        link: "/publications/"
     data:
       papers:
         - "2024/2024-07-23-why-degrowth-needs-black-ecology"
@@ -154,6 +185,34 @@ contents:
         - "2024/2024-03-20-an-unflinching-claim-to-achieve-postcapitalism-a-way-forward"
         - "2024/2024-02-29-degrowth-and-capitalist-power-a-step-towards-a-theory-of-change"
         - "2024/2024-02-22-capitalist-realism-or-post-growth-evidence-from-mental-growth-infrastructures-of-post-capitalist-org"
+
+
+  - kind: block
+    template: volumes
+    title: >-
+      Latest volumes
+    slug: >-
+      latest-volumes
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Latest volumes
+        heading: 2
+    data:
+      volumes:
+        - permalink: "/volumes/2024-volume-2/"
+          path: "/volumes/2024-volume-2"
+          slug: "volume-2"
+          file: "content/en/volumes/2024-volume-2/_index.html"
+        - permalink: "/volumes/2023-volume-1/"
+          path: "/volumes/2023-volume-1"
+          slug: "volume-1"
+          file: "content/en/volumes/2023-volume-1/_index.html"
 
 
 
