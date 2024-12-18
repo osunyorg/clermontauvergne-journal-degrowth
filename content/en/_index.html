@@ -75,8 +75,10 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
-      children: 3
+      base: 2
+      children: 2
+    top:
+      active: false
     data:
       options:
         image: false
@@ -119,7 +121,16 @@ contents:
     slug: >-
       new-call-for-papers
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          New call for papers
+        heading: 2
+      description: >-
+        <p>We have launched a call for papers for a special issue on Anarchy and Degrowth!</p>
     data:
       layout: accent_background
       text: >-
@@ -156,8 +167,16 @@ contents:
     slug: >-
       latest-publications
     ranks:
+      base: 2
       self: 2
       children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Latest publications
+        heading: 2
+        link: "/publications/"
     data:
       papers:
         - "2024/2024-07-23-why-degrowth-needs-black-ecology"
@@ -175,8 +194,15 @@ contents:
     slug: >-
       latest-volumes
     ranks:
+      base: 2
       self: 2
       children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Latest volumes
+        heading: 2
     data:
       volumes:
         - permalink: "/volumes/2024-volume-2/"
