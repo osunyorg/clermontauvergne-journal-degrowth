@@ -1,12 +1,5 @@
 theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
-
-## MODULE
-module:
-  _merge: deep
-
+_merge: deep
 params:
   debug:
     productionUrl: https://www.degrowthjournal.org
