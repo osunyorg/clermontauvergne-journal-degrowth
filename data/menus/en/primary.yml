@@ -21,12 +21,12 @@ items:
     path: "/volumes/2024-volume-2"
     file: content/en/volumes/2024-volume-2/_index.html
   - title: Volume 3 (2025)
-    target: "/volumes/2025-2025-volume-3/"
+    target: "/volumes/2025-volume-3/"
     kind: volume
     new_tab: false
     children: []
-    path: "/volumes/2025-2025-volume-3"
-    file: content/en/volumes/2025-2025-volume-3/_index.html
+    path: "/volumes/2025-volume-3"
+    file: content/en/volumes/2025-volume-3/_index.html
   path: "/papers"
   file: content/en/papers/_index.html
 - title: Submit
