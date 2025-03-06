@@ -24,14 +24,7 @@ items:
     target: "/volumes/2025-volume-3/"
     kind: volume
     new_tab: false
-    children:
-    - title: Art Issue 1
-      target: "/volumes/2025-volume-3/"
-      kind: volume
-      new_tab: false
-      children: []
-      path: "/volumes/2025-volume-3"
-      file: content/en/volumes/2025-volume-3/_index.html
+    children: []
     path: "/volumes/2025-volume-3"
     file: content/en/volumes/2025-volume-3/_index.html
   path: "/papers"
