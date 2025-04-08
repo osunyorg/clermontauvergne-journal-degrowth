@@ -36,20 +36,6 @@ items:
   children: []
   path: "/pages/submit"
   file: content/en/pages/submit/_index.html
-- title: Special calls
-  target: "/special-calls/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Anarchy and Degrowth
-    target: "/special-calls/anarchy-and-degrowth/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/special-calls/anarchy-and-degrowth"
-    file: content/en/pages/special-calls/anarchy-and-degrowth/_index.html
-  path: "/pages/special-calls"
-  file: content/en/pages/special-calls/_index.html
 - title: Guide for authors
   target: "/author-guidelines/"
   kind: page
