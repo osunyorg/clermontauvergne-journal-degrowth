@@ -9,22 +9,18 @@ en:
   buildFuture: true
   params:
     contact_details:
-      social_networks:
-        facebook:
+      emails:
+        email:
           label: >-
-            degrowthjournal
+            info@degrowthjournal.org
           value: >-
-            https://www.facebook.com/degrowthjournal
+            mailto:info@degrowthjournal.org
+      social_networks:
         linkedin:
           label: >-
             degrowth-journal
           value: >-
             https://www.linkedin.com/company/degrowth-journal/
-        x:
-          label: >-
-            degrowthjournal
-          value: >-
-            https://x.com/degrowthjournal
 
   permalinks:
     pages_categories: /:slug/
