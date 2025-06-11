@@ -22,10 +22,6 @@ en:
           value: >-
             https://www.linkedin.com/company/degrowth-journal/
 
-  permalinks:
-    pages_categories: /:slug/
-    papers: /publications/:year-:month-:day-:slug/
-    volumes: /volumes/:year-:slug/
   taxonomies:
     administrator: administrators
     author: authors
