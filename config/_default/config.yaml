@@ -10,3 +10,6 @@ params:
   papers:
     sidebar:
       direction: end
+  home:
+    head:
+      title: site
