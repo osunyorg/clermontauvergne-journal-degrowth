@@ -41,6 +41,13 @@ items:
     children: []
     path: "/volumes/2025-special-issue-anarchy-and-degrowth"
     file: content/en/volumes/2025-special-issue-anarchy-and-degrowth/_index.html
+  - title: Volume 4 (2026)
+    target: "/volumes/2026-volume-4/"
+    kind: volume
+    new_tab: false
+    children: []
+    path: "/volumes/2026-volume-4"
+    file: content/en/volumes/2026-volume-4/_index.html
   path: "/papers"
   file: content/en/papers/_index.html
 - title: Submit
