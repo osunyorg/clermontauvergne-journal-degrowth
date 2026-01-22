@@ -2,7 +2,7 @@
 title: Primary
 items:
 - title: Publications
-  target: "/publications/"
+  target: "/volumes/"
   kind: page
   new_tab: false
   children:
@@ -48,8 +48,8 @@ items:
     children: []
     path: "/volumes/2026-volume-4"
     file: content/en/volumes/2026-volume-4/_index.html
-  path: "/papers"
-  file: content/en/papers/_index.html
+  path: "/volumes"
+  file: content/en/volumes/_index.html
 - title: Submit
   target: https://journals.gla.ac.uk/degrowth/
   kind: url
