@@ -7,6 +7,11 @@ osuny:
   website:
     id: 366dc003-e801-4967-a367-bc1eb87b683b
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "degrowthjournal.org"
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
