@@ -13,3 +13,5 @@ params:
   home:
     head:
       title: site
+  search:
+    active: true
